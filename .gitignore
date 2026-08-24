@@ -68,3 +68,6 @@ temp/
 *.key
 credentials.json
 service-account.json
+# Python cache
+__pycache__/
+*.py[cod]
