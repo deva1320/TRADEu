@@ -69,4 +69,9 @@ class InstrumentRepository:
                     f"Exchange not found: {instrument.exchange_code}"
                 )
 
-        self.connection.commit()
+    def upsert_many(
+        self,
+        instruments: list[InstrumentRecord],
+    ) -> None:
+        for instrument in instruments:
+            self.upsert(instrument)

@@ -71,3 +71,5 @@ service-account.json
 # Python cache
 __pycache__/
 *.py[cod]
+# Market data
+data/raw/
