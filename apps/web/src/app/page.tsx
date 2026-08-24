@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
 
@@ -178,7 +178,7 @@ export default function Home() {
         </section>
 
         <footer className="border-t border-white/10 pt-5 text-xs text-slate-500">
-          TRADEu - Development Foundation - Phase 3
+          TRADEu - Design System Foundation - Phase 5
         </footer>
       </div>
     </main>
